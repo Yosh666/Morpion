@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+ h1{
+        font-size: 3em;
+        text-align: center;
+
+    }
+    #container{
+    width: 80%;
+    margin: 2em auto;
+    display:flex;
+    justify-content: space-between;
+    height:50em;
+    border: 2px solid black;
+    }
+        .joueur{
+            flex-grow: 1;
+            width: 5em;
+            border: 2px solid #888;
+            margin:2em;
+        }
+            h2{
+                font-size: 2em;
+                text-align: center;
+                font-weight: bold;               
+
+            }
+            .joueur p{
+                text-align: center;
+            }
+            .joueur {
+                background-color: #888;
+            }
+            .actif{
+                background-color: #66A663;
+            }
+                .symb img{
+                    width: 80%;
+                    margin:2em auto;
+                }
+        #grille{
+            flex-grow: 2;            
+            width:12em;
+            margin-top: 2em;
+        }
+            .ligne{
+                display: flex;
+                
+            }
+                .case{
+                    width: 20em;
+                    height: 15em;                    
+                    border: 8px solid #290833;
+                }
+                    .case img{
+                        width:10em;
+                        margin: auto;
+                        justify-content: center;
+                    }
+                    #case1{
+                        border-top: none;
+                        border-left: none;
+                    }
+                    #case2{
+                        border-top: none;
+                    }
+                    #case3{
+                        border-top: none;
+                        border-right: none;
+                    }
+                    #case4{
+                        border-left: none;
+                    }
+                    #case6{
+                        border-right: none;
+                    }
+                    #case7{
+                        border-left: none;
+                        border-bottom: none;
+                    }
+                    #case8{
+                        border-bottom: none;
+                    }
+                    #case9{
+                        border-bottom: none;
+                        border-right: none;
+                    }
+   
