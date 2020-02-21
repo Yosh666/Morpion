@@ -8,36 +8,38 @@
 </head>
 <body>
         
-    <h1>Le Morpion Tatatan!!</h1>
+    <h1 id='titre'>Le Morpion Tatatan!!</h1>
+    <h1 id="erreur">Joue une autre case!</h1>
+    <h3 id ="suspens">ce suspens de folie!!!</h3>
     <div id="container">
         <div class="joueur" id="j1">
             <h2>Joueur 1</h2>
             <p class="symb">Symbole:<br><img src="img/croix.png"></p>
-            <p>Victoire = </p>
-            <p> Défaite = </p>
+            <p id="j1victoire">Victoire = </p>
+            <p id="j1defaite"> Défaite = </p>
         </div>
         <div id="grille">
             <div class="ligne" id="ligne1">
-                <div class="case" id="case1"><img src=""></div>
-                <div class="case" id="case2"><img src=""></div>
-                <div class="case" id="case3"><img src=""></div>
+                <div class="case undone" id="case1"><img src=""></div>
+                <div class="case undone" id="case2"><img src=""></div>
+                <div class="case undone" id="case3"><img src=""></div>
             </div>
             <div class="ligne" id="ligne2">
-                <div class="case" id="case4"><img src=""></div>
-                <div class="case" id="case5"><img src=""></div>
-                <div class="case" id="case6"><img src=""></div>
+                <div class="case undone" id="case4"><img src=""></div>
+                <div class="case undone" id="case5"><img src=""></div>
+                <div class="case undone" id="case6"><img src=""></div>
             </div>
             <div class="ligne" id="ligne3">
-                <div class="case" id="case7"><img src=""></div>
-                <div class="case" id="case8"><img src=""></div>
-                <div class="case" id="case9"><img src=""></div>
+                <div class="case undone" id="case7"><img src=""></div>
+                <div class="case undone" id="case8"><img src=""></div>
+                <div class="case undone" id="case9"><img src=""></div>
             </div>
         </div>
         <div class="joueur"id="j2">
             <h2>Joueur 2</h2>
             <p class="symb">Symbole:<br> <img src="img/rond.png"></p>
-            <p>Victoire = </p>
-            <p> Défaite = </p>
+            <p id="j2victoire">Victoire = </p>
+            <p id="j2defaite"> Défaite = </p>
         </div>
     </div>
     <div class="control">
