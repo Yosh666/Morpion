@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le meilleur jeu de tout les temps</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="effetjs.css">
+</head>
+<body>
+   <h1 id="titre">Morpion de la mort!</h1>
+   <h2 id="suspens">Suspense de Folie....</h2>
+   <h2 id="erreur">Choisis une autre case</h2>
+   <h2 id="matchnul">C'est un Match Nul</h2>
+   <h2 id=" nbpartie">Partie jouée: </h2>
+   <div class="container">
+        <div class="joueur"id="joueur1">
+            <h3 id="nomj1"></h3>
+            <img src="img/croix.png">
+            <p>Victoire: <span id="j1victoire"> </span> </p>
+            <p>Défaite : <span id="j1defaite"> </span></p>
+            <p>Match nul: <span id='draw1'> </span> </p>
+        </div>
+       <div class="grille">
+            <div class="ligne">
+                <div class="case" id="case1"><img src=''></div>
+                <div class="case" id="case2"><img src=''></div>
+                <div class="case" id="case3"><img src=''></div>
+            </div>
+            <div class="ligne">
+                <div class="case" id="case4"><img src=''></div>
+                <div class="case" id="case5"><img src=''></div>
+                <div class="case" id="case6"><img src=''></div>
+            </div>
+            <div class="ligne">
+                <div class="case" id="case7"><img src=''></div>
+                <div class="case" id="case8"><img src=''></div>
+                <div class="case" id="case9"><img src=''></div>           
+            </div>
+        </div>
+        <div class="joueur"id="joueur2">
+            <h3 id="nomj2"></h3>
+            <img src="img/rond.png">
+            <p>Victoire: <span id="j2victoire"> </span></p>
+            <p>Défaite : <span id="j2defaite"> </span></p>
+            <p>Match nul: <span id="draw2"> </span></p>
+        </div>
+   </div>
+    <div id="control">
+        <button class="bouton"id="jouer">Jouer</button>
+        <button class="bouton"id="rejouer">Rejouer</button>
+    </div>
+
+<script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous">
+</script>
+<script src="morpion.js"></script>
+<script src="conditionvictoire.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.active{
+    background-color: green;
+}
+.case img{
+    width: 100px;
+    margin: 50px;
+}
+.winner{
+    width:80%;
+    height: 500px;
+    background-color: yellow;
+}
+.winner img{
+    width: 200px;
+    height: 200px;    
+    padding: initial;
+}

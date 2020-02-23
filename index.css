@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    color:#3F4666;
+}
+#suspens{
+    color: #142369;
+}
+#erreur{
+    color: #A83427;
+}
+.container{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    border: 1px solid #ddd;
+}
+    .joueur{
+        flex-grow: 1;
+        width: 250px;
+        border: 1px solid #ddd;
+        background-color: #888;
+        text-align: center;
+        margin: 1em;
+        
+
+    }
+        .joueur  img{
+            width: 80%;
+            padding: 50px 0;
+        }
+    .grille{
+        flex-grow: 2;        
+        margin-top: 0px;
+    }
+        .ligne{
+            display: flex;
+        }
+            .case{
+                width: 200px;
+                height: 200px;
+                border: 8px solid #290833 ;
+            }
+            #case1{
+                border-top: none;
+                border-left: none;
+            }
+            #case2{
+                border-top: none;
+            }
+            #case3{
+                border-top: none;
+                border-right: none;
+            }
+            #case4{
+                border-left: none;
+            }
+            #case6{
+                border-right: none;
+            }
+            #case7{
+                border-left: none;
+                border-bottom: none;
+            }
+            #case8{
+                border-bottom: none;
+            }
+            #case9{
+                border-bottom: none;
+                border-right: none;
+            }
+#control{
+    text-align: center;
+}    
+    
+    
+    
+    .bouton{
+        justify-content: center;
+        box-shadow:inset 0px 1px 0px 0px #efdcfb;
+        background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+        background-color:#dfbdfa;
+        border-radius:6px;
+        border:1px solid #c584f3;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #9752cc;
+    }
+    .bouton:hover {
+        background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+        background-color:#bc80ea;
+    }
+    .bouton:active {
+        position:relative;
+        top:1px;
+    }
+            
+                    
+
+
+
