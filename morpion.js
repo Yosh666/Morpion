@@ -41,6 +41,7 @@ $("#rejouer").click(function(){
     $(".joueur").show();
     $(".grille").show();
     $(".case").data("valeur",0)
+    nbtour=0;
    /* $("#j1victoire").append(j1victoire);
     $("#j1defaite").append(j2victoire);
     $("#j2victoire").append(j2victoire);
@@ -50,8 +51,8 @@ $("#rejouer").click(function(){
     document.getElementById("j2victoire").innerHTML= j2victoire;
     document.getElementById("j1defaite").innerHTML= j2victoire;
     document.getElementById("j2defaite").innerHTML= j1victoire;
-    document.getElementsById("draw1").innerHTML= draw;
-    document.getElementsById("draw2").innerHTML= draw;
+    document.getElementById("draw1").innerHTML= draw;
+    document.getElementById("draw2").innerHTML= draw;
     
     nbpartiejouer++;
    

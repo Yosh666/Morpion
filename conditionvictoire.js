@@ -8,7 +8,7 @@ function Joueur1gagne(){
     $(".grille").hide();
     $("#joueur2").hide();
     j1victoire ++;
-    $("#j1victoire").append(j1victoire);
+    document.getElementById("j1victoire").innerHTML= j1victoire;
     $("#rejouer").show();
 }
 function Joueur2gagne(){
@@ -18,7 +18,7 @@ function Joueur2gagne(){
     $(".grille").hide();
     $("#joueur1").hide();
     j2victoire ++;
-    $("#j2victoire").append(j2victoire);
+    document.getElementById("j2victoire").innerHTML= j2victoire;
     $("#rejouer").show();
 }
 function conditionsVictoire(){
